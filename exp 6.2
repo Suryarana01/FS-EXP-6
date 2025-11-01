@@ -1,0 +1,23 @@
+banking-api/
+ ├── server.js
+ ├── models/
+ │    └── User.js
+ ├── routes/
+ │    ├── auth.js
+ │    └── bank.js
+ ├── middleware/
+ │    └── auth.js
+ ├── package.json
+ ├── .env.example
+ └── README.md
+OUTPUT:
+> Server running on port 5000
+> MongoDB Connected
+
+POST /api/auth/register → 201 Created
+POST /api/auth/login → 200 OK
+GET /api/bank/balance → 200 OK
+POST /api/bank/deposit → 200 OK
+POST /api/bank/withdraw → 200 OK
+
+
